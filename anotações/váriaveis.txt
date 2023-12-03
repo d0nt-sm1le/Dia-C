@@ -1,0 +1,70 @@
+                                 Váriaveis
+__________________________________________________________________________________
+# Definindo as váriaveis
+
+Tipos:
+
+Int = números inteiros (que não tem virgula e ponto)
+Float = números quebrados (que tem virgula e pontos)
+Char = tudo que estiver dentro de " "
+
+Formatos:
+
+Int = %d / %i
+Float = %f
+Char = %c
+
+Declarando:
+
+Para declarar uma váriavel você vai colocar o tipo dela, o nome dela e o valor
+que ela vai receber. Desse jeito:
+
+1 - tipo nome_da_variavel = valor;
+
+2 - tipo nome_da_variavel;
+    nome_da_variavel = valor;
+
+3 - tipo nome1 = valor;
+    tipo nome2;
+    nome2 = nome1;
+
+4 - tipo nome1 = valor, nome2 = valor, nome3 = valor;
+
+5 - int nome1, nome2, nome3;
+    nome1, nome2, nome3 = valor;
+
+No exemplo 1 você declarou uma váriavel de forma mais direta, no exemplo 2 você
+declarou a váriavel de forma mais indireta já que esse tipo de declaração pode ser
+colocado em qualquer linha, no exemplo 3 você passou o valor de uma váriavel para
+uma váriavel vazia, no exemplo 4 você definiu várias váriaveis em uma mesma linha
+e no exemplo 5 você definiu várias váriaveis com um mesmo valor.
+
+Regras de declaração:
+
+* Os nomes podem conter letras, dígitos e sublinhados
+* Os nomes devem começar com uma letra ou um sublinhado (_)
+* Os nomes diferenciam maiúsculas de minúsculas 
+* Os nomes não podem conter espaços em branco ou caracteres especiais como !, #, %, etc.
+* Palavras reservadas (como int) não podem ser usadas como nomes
+
+-----------------------------------------------------------------------------------
+# Chamando as váriaveis
+
+printf("%d", nome_da_váriavel)
+
+O modo que a linguagem C usa para chamar as suas váriaveis são por meio dos seus
+formatos (que foram mostrados lá em cima), eles ficarão dentro das aspas
+e no final da frase você vai falar em ordem qual formato é de qual váriavel.
+
+Você também pode usar os operadores aritméticos para fazer contas da seguinte
+forma:
+
+tipo nome1 = valor;
+tipo nome2 = valor;
+tip nome3 = nome1 + nome2;
+
+printf("1 + 2 = %d", nome3)
+
+E o resultado que vai aparecer vai ser 3.
+
+__________________________________________________________________________________

@@ -1,0 +1,21 @@
+                                   Texto
+____________________________________________________________________________________
+#include <stdio.h> = para incersão de texto
+main(){} = função cuja os códigos serão executados
+
+\n = quebra linhas de linhas
+// = comentarios
+/**/ = comentarios de várias linhas
+
+printf("") = imprime algo na tela
+scanf("", &nome) = espera o úsuario escrever algo na tela para atribuir o valor a
+váriavel.
+
+
+
+(bônus 1: use comando #include <locale.h> e depois coloque o comando
+setlocale(LC_ALL, "Portuguese"); e por fim mude o utf-8 para "iso 8859-1". Assim 
+você vai poder usar acentos no seu terminal.
+
+bônus 2: use o comando "system("cls");" para ter um terminal mais limpo)
+__________________________________________________________________________________
