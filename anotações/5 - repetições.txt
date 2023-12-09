@@ -1,0 +1,6 @@
+                                Repetições
+__________________________________________________________________________________
+
+for (variavel = 0; variavel < numero de repetições; váriavel ++){} = faz
+repetições com o número que você escolher para ser repetidos
+__________________________________________________________________________________

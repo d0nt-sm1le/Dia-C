@@ -10,9 +10,12 @@ Char = tudo que estiver dentro de " "
 
 Formatos:
 
-Int = %d / %i
+Int = %i
 Float = %f
 Char = %c
+Bool = %d
+Const = váriavel imútavel
+
 
 Declarando:
 
