@@ -10,12 +10,11 @@ Char = tudo que estiver dentro de " "
 
 Formatos:
 
-Int = %i
+Int = %i - %d
 Float = %f
 Char = %c
-Bool = %d
 Const = váriavel imútavel
-
+#define nome valor = para números importantes
 
 Declarando:
 

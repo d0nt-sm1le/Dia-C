@@ -1,6 +1,15 @@
                                 Repetições
 __________________________________________________________________________________
+For:
 
 for (variavel = 0; variavel < numero de repetições; váriavel ++){} = faz
 repetições com o número que você escolher para ser repetidos
+
+While:
+
+while(condição){código a ser executado} = cria uma loop infinito até que a 
+condição se torne verdadeira 
+
+do{código executável}while(condição) = cria um loop infinito até que a condição
+se torne verdadeira,mas o código será executado pelo menos uma vez
 __________________________________________________________________________________
