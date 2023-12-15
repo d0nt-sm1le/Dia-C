@@ -14,6 +14,7 @@ Int = %i - %d
 Float = %f
 Char = %c
 Const = váriavel imútavel
+double = armazena numero flutuantes maiores - %lf
 #define nome valor = para números importantes
 
 Declarando:

@@ -12,4 +12,7 @@ condição se torne verdadeira
 
 do{código executável}while(condição) = cria um loop infinito até que a condição
 se torne verdadeira,mas o código será executado pelo menos uma vez
+
+break; = quebra uma repetição
+continue; = ele quebra uma parte da repetição em uma condição especificada
 __________________________________________________________________________________

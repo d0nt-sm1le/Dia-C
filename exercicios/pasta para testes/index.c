@@ -2,12 +2,13 @@
 
 int main()
 {
-    int numero = 0;
+   int i;
 
-    do{
-        printf("%d\n", numero);
-        numero++;
-    }
-    while (numero < 0);
-    
+   for (i = 1; i < 10; i++)
+   {
+      int numero = rand() % 51;
+      printf("%i\n", numero);
+   }
+   
+   
 }
