@@ -2,13 +2,14 @@
 
 int main()
 {
-   int i;
+   int num1;
+   int num2;
 
-   for (i = 1; i < 10; i++)
-   {
-      int numero = rand() % 51;
-      printf("%i\n", numero);
+   while(1){
+    scanf("%i", &num1);
+    scanf("%i", &num2);
+    printf("%i", num1);
+    printf("%i", num2);
    }
-   
    
 }

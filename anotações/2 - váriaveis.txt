@@ -6,13 +6,15 @@ Tipos:
 
 Int = números inteiros (que não tem virgula e ponto)
 Float = números quebrados (que tem virgula e pontos)
-Char = tudo que estiver dentro de " "
+Char = tudo que estiver dentro de ' '
+String = tudo que estiver dentro de " "
 
 Formatos:
 
 Int = %i - %d
 Float = %f
 Char = %c
+String = %s
 Const = váriavel imútavel
 double = armazena numero flutuantes maiores - %lf
 #define nome valor = para números importantes

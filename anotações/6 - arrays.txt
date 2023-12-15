@@ -1,0 +1,26 @@
+                                Arrays
+__________________________________________________________________________________
+
+Declaração:
+
+int nome[numero de itens +1] = {1, 2... }= cria arrays de números
+char nome [numero de itens +1] = ['1'.'2'...] = cria arrays de caracteres
+char nome [numero de itens +1][numero máximo de letras + 1] = {"1", "2"..."} =cria
+um array de strings
+int nome [numero de arrays +1][numero de colunas] = { {" ", " "} {" ", " " } } =
+cria vários arrays.
+
+Chamando arrays:
+
+nome_da_array[0] = chama o item de um array
+nome_da_matriz[2] = item; = altera o item de uma array
+nome_da_matriz[numero da ray][numero do elemento] = chama elemento de arrays
+bidimensionais
+
+Outros:
+
+sizeof() = mostra o tamanho de uma array
+
+
+
+__________________________________________________________________________________

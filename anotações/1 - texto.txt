@@ -11,8 +11,9 @@ printf("") = imprime algo na tela
 scanf("", &nome) = espera o úsuario escrever algo na tela para atribuir o valor a
 váriavel.
 rand() = cria números randomicos
-srad() = é a semente do rand pra que os número sejam sempre diferentes
+srand() = é a semente do rand pra que os número sejam sempre diferentes
 time() = chama uma data especifica
+srand(time(0))
 
 
 

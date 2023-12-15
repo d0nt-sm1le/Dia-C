@@ -5,12 +5,10 @@ Declarações:
 if (){} = condição "se"
 else {} = condição "se não"
 else if {}() = condição "se não for"
-switch {}() = várias condições a serem testadas
 
 Mão curta:
 
 (condição) ? expressão verdadeira : expressão falsa ;
-
 
 Condições:
 
@@ -20,5 +18,7 @@ Condições:
 >= : maior ou igual á
 < = maior que
 > = menor que 
+|| = ou
+& = e
 
 __________________________________________________________________________________
