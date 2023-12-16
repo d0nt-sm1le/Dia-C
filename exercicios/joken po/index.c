@@ -18,7 +18,7 @@ int main()
 
         if (jogador > 2 || jogador < 0)
         {
-            printf("\n\nNï¿½mero invalido tente novamente\n\n");
+            printf("\n\nNúmero invalido tente novamente\n\n");
             continue;
         }
         
@@ -86,5 +86,6 @@ int main()
         printf("\n\nFim de jogo!\n\n");
         break;
     }
+
+    system("pause");
 }
-    

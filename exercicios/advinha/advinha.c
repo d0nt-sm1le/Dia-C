@@ -13,6 +13,8 @@ int main()
     int numeroS = rand() % 101;
     int numero[4] = {4, 9, 14};
     int i;
+    int jogada;
+
 
     printf("**************************************\n");
     printf("((((((((Bem vindo ao meu jogo)))))))))\n");
@@ -40,6 +42,17 @@ int main()
     {
         printf("\nOk. Agora chute seu número: ");
         scanf("%d", &jogador);
+
+        if (jogador != jogada){
+            printf("");
+        }
+
+        else{
+            printf("Você já chutou esse número tente novamente.\n\n");
+            continue;
+        }
+
+        jogada = jogador;
 
         if(jogador == numeroS){
             printf("Parabens, você acertou!!\nFim de jogo.\n\n");
