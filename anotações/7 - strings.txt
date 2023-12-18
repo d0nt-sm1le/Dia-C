@@ -1,0 +1,15 @@
+                                Strings
+__________________________________________________________________________________
+
+char nome[] = ""; = cria uma cadeia de string
+char nome[] = ' '; = muda o elemento de uma cadei de string
+char nome[] = ' ', '/0'; = cria uma cadeia de caracteres
+
+%s = chama uma cadeia de string
+%c = chama uma cadeia de caractere
+
+sizeof(nome[]) / sizeof(nome[0]) = formula sizeof, traz uma estrutura maior para
+métodos de repetição
+
+
+__________________________________________________________________________________

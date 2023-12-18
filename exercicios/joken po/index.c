@@ -86,6 +86,5 @@ int main()
         printf("\n\nFim de jogo!\n\n");
         break;
     }
-
     system("pause");
 }
