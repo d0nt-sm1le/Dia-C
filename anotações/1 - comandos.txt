@@ -8,14 +8,15 @@ main(){} = função cuja os códigos serão executados
 /**/ = comentarios de várias linhas
 
 printf("") = imprime algo na tela
+sprintf("") = imprime caracteres da arrays
+
 scanf("", &nome) = espera o úsuario escrever algo na tela para atribuir o valor a
 váriavel.
+
 rand() = cria números randomicos
 srand() = é a semente do rand pra que os número sejam sempre diferentes
 time() = chama uma data especifica
 srand(time(0))
-
-
 
 (bônus 1: use comando #include <locale.h> e depois coloque o comando
 setlocale(LC_ALL, "Portuguese"); e por fim mude o utf-8 para "iso 8859-1". Assim 

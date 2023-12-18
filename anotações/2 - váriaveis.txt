@@ -8,6 +8,7 @@ Int = números inteiros (que não tem virgula e ponto)
 Float = números quebrados (que tem virgula e pontos)
 Char = tudo que estiver dentro de ' '
 String = tudo que estiver dentro de " "
+long int = para armazenar números inteiros maiores
 
 Formatos:
 

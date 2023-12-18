@@ -2,14 +2,20 @@
 __________________________________________________________________________________
 
 char nome[] = ""; = cria uma cadeia de string
-char nome[] = ' '; = muda o elemento de uma cadei de string
+char nome[] = ' '; = muda o elemento de uma cadeia de string
 char nome[] = ' ', '/0'; = cria uma cadeia de caracteres
+char nome [numero de itens +1] = ['1'.'2'...] = cria arrays de caracteres
+char nome [numero de itens +1][numero máximo de letras + 1] = {"1", "2"..."} =cria
+um array de strings
 
 %s = chama uma cadeia de string
 %c = chama uma cadeia de caractere
 
 sizeof(nome[]) / sizeof(nome[0]) = formula sizeof, traz uma estrutura maior para
 métodos de repetição
+
+sprintf(nomeArray, "palavra que vai ser imprimida dentro da array) = vai colocar
+a frase ou palavra que você quer, dentro de uma array de strings.
 
 
 __________________________________________________________________________________

@@ -2,6 +2,7 @@
 
 int main()
 {
-    
-    return 0;
+    char palavrasecreta[7];
+    sprintf(palavrasecreta, "Algo assim");
+    printf("%s", palavrasecreta);
 }
