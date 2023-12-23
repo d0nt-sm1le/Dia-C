@@ -6,5 +6,5 @@ int main()
     printf("Digite um valor: ");
     scanf("%f", &num1);
 
-    printf("O valor digitado foi %f e a sua porcao iteira e %.f", num1, num1);
+    printf("O valor digitado foi %.2f e a sua porcao iteira e %.f", num1, num1);
 }

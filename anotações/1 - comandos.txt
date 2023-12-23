@@ -8,7 +8,7 @@ main(){} = função cuja os códigos serão executados
 /**/ = comentarios de várias linhas
 
 printf("") = imprime algo na tela
-sprintf("") = imprime caracteres da arrays
+sprintf(array, "") = imprime caracteres da arrays
 
 scanf("", &nome) = espera o úsuario escrever algo na tela para atribuir o valor a
 váriavel.

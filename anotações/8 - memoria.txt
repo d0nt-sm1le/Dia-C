@@ -1,0 +1,23 @@
+                                  Memoria
+__________________________________________________________________________________
+
+Você consegue acessar a memoria de uma váriavel usando "&" quando for chama-la.
+E isso nos ajuda a manipula os dados de memoria do computador. As memorias são
+definidas por numeros hexadecimais que definem o valor da váriavel.
+
+Ponteiros:
+
+Você consegue ver o valor de uma memoria usando o "&" e o "%p" que chama o formato
+de ponteiro e assim você pode ver o valor hexadecimal da memoria.
+
+O ponteiro é uma variavel que guarda o valor da memoria de outra variavel dentro 
+dele. E para definir uma variavel como ponteiro, você pega o mesmo tipo da
+variavel que você quer guardar a memoria, acrescenta o caractere "*" e define
+o nome e declare que aquela variavel recebe a variavel que você quer guardar a 
+memoria.
+
+int num1 = 2;
+int* ponteiro1 = num1;
+
+printf("%p", &ponteiro1);
+__________________________________________________________________________________
