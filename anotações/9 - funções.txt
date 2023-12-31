@@ -1,0 +1,35 @@
+                                 Funções
+__________________________________________________________________________________
+Funções são blocos de códigos que só são executados quando são chamados, e por
+padrão o próprio main() já é uma função e o printf() também! E para declarar sua
+propria função você pode declarar:
+
+void NomeDaFunção(){
+
+]
+
+
+E para chamar a sua função, próprimante feita fora do main, você vai declara-lá
+fora do main como:
+
+NomeDaFunção(); e assim ela será executada.
+
+-------------------------------------------
+Parametros:
+
+Os parametros são declarados dentro do () e são declarados como argumentos quando
+a função é chamada:
+
+void função(char parametro1[]){
+
+}
+
+main(){
+   função("parametro")
+}
+
+E você pode chamar e declarar quantos parametros quiser mas é necessario que eles
+sejam váriaveis caso você queira armazenar o valor para eles. E para usar usar
+um matriz como parametro é necessario que ela seja declara no main e passada
+como argumentos depois na declaração da função
+__________________________________________________________________________________

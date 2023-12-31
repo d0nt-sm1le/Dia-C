@@ -1,15 +1,11 @@
 #include <stdio.h>
 
+void myfuction()
+{
+   printf("Ola mundo");
+}
+
 int main()
 {
-   int num1;
-   int num2;
-
-   while(1){
-    scanf("%i", &num1);
-    scanf("%i", &num2);
-    printf("%i", num1);
-    printf("%i", num2);
-   }
-   
+   myfuction();
 }

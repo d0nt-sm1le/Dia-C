@@ -13,11 +13,32 @@ de ponteiro e assim você pode ver o valor hexadecimal da memoria.
 O ponteiro é uma variavel que guarda o valor da memoria de outra variavel dentro 
 dele. E para definir uma variavel como ponteiro, você pega o mesmo tipo da
 variavel que você quer guardar a memoria, acrescenta o caractere "*" e define
-o nome e declare que aquela variavel recebe a variavel que você quer guardar a 
+o nome e declara que aquela variavel recebe a variavel que você quer guardar a 
 memoria.
 
 int num1 = 2;
 int* ponteiro1 = num1;
 
 printf("%p", &ponteiro1);
+
+Além disso os * podem ser usado com umas desferenciação mostrando o valor
+original do ponteiro
+
+int num1 = 2;
+int* ponteiro1 = num1;
+
+printf("%d", *ponteiro1);
+
+Arrays:
+
+Podemos acessar os valores de arrays por meio de ponteiros usando o * para
+sabermos qual o valor do elemento. Por padrão o ponteiro de uma array é o
+ponteiro do primeiro valor da array, sendo assim podemos usar incrimentações 
+para acessar outros valores:
+
+printf("%p", *(array + 2))
+
+E podemos alterar o valor dessas array manualmente por meio de ponteiros:
+
+*(array + 3) = 17;
 __________________________________________________________________________________

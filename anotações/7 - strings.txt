@@ -27,7 +27,6 @@ scanf("", cadeia) = guarda uma palavra dentro uma cadeia de caracteres
 fgets (array, sizeof(mesma-array), stdin); = permite colocar uma frase dentro
 de uma cadeia de caracteres
 
-
 sprintf(nomeArray, "palavra que vai ser imprimida dentro da array) = vai colocar
 a frase ou palavra que você quer, dentro de uma array de strings.
 
