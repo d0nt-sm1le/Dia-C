@@ -1,0 +1,19 @@
+                                  Math.h
+__________________________________________________________________________________
+Aqui eu vou estar listando os principais comandos da biblioteca math.h:
+
+sqrt() = mostra a raiz quadrada de um número
+floor() = arredonda um número para baixo
+ceil() = arredonda um número para cima
+pow() = faz a potencia de um numero
+abs() = retorna o valor absoluto de um número
+acos() = retorna o arco cosseno de um número
+asin() = retorna o arco seno de um número
+atan() = retorna o arco tangente de um número
+cbrt() = retorna a raiz cúbica de um número
+exp() = faz uma exponenciação de um número
+cos() = retorna o cosseno de um número
+sin() = retorna o seno de um número (em radianos)
+tan() = retorna a tangente de um ângulo
+
+__________________________________________________________________________________

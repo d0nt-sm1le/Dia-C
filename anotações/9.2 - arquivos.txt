@@ -1,0 +1,82 @@
+                                 Arquivos
+__________________________________________________________________________________
+Para podermos ler, abrir e gravar em arquivos é necessario que a gente crie uma
+váriavel do tipo FILE que vai servir para podermos fazer essas ações e é
+importante que ela seja do tipo ponteiro, desse jeito
+
+FILE *sla = fopen("nome_do_arquivo", "ação");
+
+O fopen() é um comando que serve para podermo mexer nesse arquivo! Você vai passar
+o nome do arquivo para ele e vai poder executar as ações
+
+w = Grava em um arquivo
+a = Acrescenta dados a um arquivo
+r = Lê um arquivo
+
+Para criar um arquivo também, é simples você pode usar a ação "w" para criar ele
+e declararo nome do arquivo que você quer, se você não especificar onde você quer
+que o arquivo seja salvo, ele vai ser gerado dentro da pasta onde está o seu
+programa em C. 
+
+Para fechar um arquivo também é simples você simplesmente vai colocar o comando:
+
+fclose(sla);
+
+-------------------------------------------
+Gravar em um arquivo
+
+Para gravar em um arquivo também é simples você vai usar a ação "w" e depois, 
+você vai usar o comando fprintf(nome_da_variavel, ""); para poder escrever dentro
+do arquivo, mas é importante saber também que sempre que você executar de novo,
+o arquivo vai ser reescrito por isso a gente vai só acrescentar dados depois disso
+. Exemplo
+
+FILE *sla("index.txt", "w");
+
+fprintf(sla, "hello world");
+
+fclose(sla);
+
+E para acrescentar em um arquivo é a mesma coisa a gente só troca o W pelo A!
+
+-------------------------------------------
+Ler um arquivo
+
+Para ler um arquivo em C a gente vai usar a ação "r" e diferente de antes
+agora a gente vai usar o comando fgets() para podermos visualizar oque está 
+dentro do arquivo mas antes precismo criar uma array com o número maximo de
+caracteres que será armazedo da leitura do arquivo!
+
+fgets(array, 100, sla);
+
+Na primeira parte é a array que ira armazenar os caracteres
+Na segunda parte será o número maximo de caracterers que poderemos ver
+Na terceira parte será a váriavel que guarda o arquivo que será lido
+
+E por ultimo para podermos ver oque está escrito, vamos usar o printf! Para que
+no final fique desse jeito!
+
+   FILE *sla = fopen("index.txt", "r");
+   char array[100];
+   fgets(array, 100, sla);
+   printf("%s", array);
+   fclose(sla);
+
+E só por um toque final, o fgets só vai ler a primeira linha portanto podemos
+usar o while para que ele leia todas as linhas ficando desse jeito:
+
+   FILE *sla = fopen("index.txt", "r");
+   char array[100];
+
+   while (fgets(array, 100, sla))
+   {
+      printf("%s", array);
+   }
+   
+   fclose(sla);
+
+Obs: Quando não existir um arquivo a ser lido, o "sla" vai retornar com "Null"
+então você poder criar uma condinção pra quando o "sla" for "Null" ele avise
+que o arquivo não existe!
+
+__________________________________________________________________________________

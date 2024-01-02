@@ -12,8 +12,8 @@ de ponteiro e assim você pode ver o valor hexadecimal da memoria.
 
 O ponteiro é uma variavel que guarda o valor da memoria de outra variavel dentro 
 dele. E para definir uma variavel como ponteiro, você pega o mesmo tipo da
-variavel que você quer guardar a memoria, acrescenta o caractere "*" e define
-o nome e declara que aquela variavel recebe a variavel que você quer guardar a 
+variavel que você quer guardar a memoria, acrescentar o caractere "*", definir
+o nome e declarar que aquela variavel recebe a variavel que você quer guardar a 
 memoria.
 
 int num1 = 2;

@@ -6,11 +6,11 @@ propria função você pode declarar:
 
 void NomeDaFunção(){
 
-]
+}
 
 
 E para chamar a sua função, próprimante feita fora do main, você vai declara-lá
-fora do main como:
+dentro do main como:
 
 NomeDaFunção(); e assim ela será executada.
 
@@ -29,7 +29,48 @@ main(){
 }
 
 E você pode chamar e declarar quantos parametros quiser mas é necessario que eles
-sejam váriaveis caso você queira armazenar o valor para eles. E para usar usar
-um matriz como parametro é necessario que ela seja declara no main e passada
-como argumentos depois na declaração da função
+sejam váriaveis caso você queira armazenar o valor para eles. E para usar uma
+matriz como parametro é necessario que ela seja declara no main e passada como
+argumentos depois na declaração da função:
+
+int matriz(int parametro1[]){}
+
+int main(){
+    int nomeDaMatriz[] = {....};
+    matriz(nomeDaMatriz);
+}
+
+-------------------------------------------
+Valores de retorno:
+
+Os valores de retorno são os tipos de dados que ficam antes da função e você pode
+definilos como os tipos de dados padrão como "int", "float", "char" e etc e usar o
+"return" dentro da função:
+
+int function(int x){
+    return x + 2;
+}
+
+int main(){
+    function(2);
+    return 0;
+}
+
+-------------------------------------------
+Declaração e definição:
+
+Sempre que formos declarar um função, ela sempre vai ficar acima do main, e 
+só iremos definir como vai ser essa função abaixo do main! Desse jeito:
+
+
+void minhafunção(int, int); //declaração
+
+int main(){
+    minhafunção(2, 2);
+    printf("Minha função");
+}
+
+void minhafunção(int x, int y){  //definição
+    printf("%d + %d = %i", x, y, x + y);
+}
 __________________________________________________________________________________
