@@ -1,0 +1,34 @@
+                                    Enums
+__________________________________________________________________________________
+Os enums são praticamente listas de valores que podem ser acessados de forma
+global e que são usados para valores únicos (que não vão mudar ao longo do
+código). Para criar um enum use a syntaxe:
+
+enum nome_do_enum{
+
+     /* Aqui vai os seus valores *\
+
+     Facil,
+     Medio,
+     Dificil
+
+};
+
+Para chamar um enum você o chama da seguinte forma:
+
+enum nome_do_enum var = Dificil;
+
+Assim a váriavel "var" recebe o valor de "Dificil" que por padrão é igual a 1
+mas que pode ser alterada no próprio enum! Da seguinte forma:
+
+     Facil = 10,
+     Medio = 15,
+     Dificil = 20
+
+Assim "Dificil" recebe o valor 20 quando chamado! E da mesma forma que mudamos o
+valor de um item do enum, se os outros não forem especificados também, eles 
+serão listados como os próximos números depois daquele que você definiu!
+
+(Nota: Você pode usar o switch para mostrar como "Facil", "Medio" e "Dificil"
+dependendo de como você quer fazer, já que você pode usar a váriavel "var")
+__________________________________________________________________________________

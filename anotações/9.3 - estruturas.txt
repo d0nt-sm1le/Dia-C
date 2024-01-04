@@ -1,0 +1,48 @@
+                                  Structs
+__________________________________________________________________________________
+Uma estrutura em C é o lugar onde você vai declarar a suas váriaveis de forma
+global, de modo que seja mais prático para o código ser mais limpo! Então
+para criar uma estrutura você à declara da seguinte forma:
+
+struct nome_da_estrutura{
+
+      /*aqui vai a suas váriaveis mas
+      você não vai poder atribuir um
+      valor a elas aqui!*\
+
+      int mySun;
+      char mySon[30]; 
+
+};
+
+Para chamar a sua estrutura no main você vai usar o comando:
+
+struct nome_da_estrutura s1; // o s1 pode ser o nome que você quiser mas que seja
+simples
+
+Mas você também pode estar criando uma estrutura acima do main e usar ela
+como se fosse outra estrutura com a definição vista ali em cima! Por que assim
+cada estrutura será salva de forma diferente com nomes diferentes!
+
+----------------------------------------------
+Atribuindo valor:
+
+Agora para atribuir o valor a uma váriavel você vai usar o s1 e o nome
+da váriavel para indicar que é a váriavel daquela estrutura:
+
+s1.mySun = 100;
+
+Ou você pode definir da seguinte forma: 
+
+struct nome_da_estrutura s1 = {100, "Solaire"};
+
+E agora pronto você já sabe como usar uma estrutura mas para que você possa
+definir o valor de uma array você pode usar o comando "strcpy()" para isso da
+seguinte forma:
+
+strcpy(s1.mySon, "Solaire");
+
+E assim você pode definir a sua array de caracteres! E claro você sempre vai
+poder estar mudando.
+
+__________________________________________________________________________________
