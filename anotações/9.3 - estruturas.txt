@@ -45,4 +45,30 @@ strcpy(s1.mySon, "Solaire");
 E assim você pode definir a sua array de caracteres! E claro você sempre vai
 poder estar mudando.
 
+-----------------------------------------------
+Typedef
+
+O typedef é uma segunda maneira de usar o struct e a diferença dele é que ele
+é mais simplificado, mas envolve mais linha ao declarar o valor das suas váriaveis
+. E a syntaxe dele é a seguinte: 
+
+typedef struct
+{
+
+ váriaveis vão aqui
+
+}nome_do_struct;
+
+e ai conforme você vai declarando as váriaveis, você vai poder declarar seus 
+valores da seguinte forma:
+
+nome_do_struct variavel1;
+
+variavel1.variavel_do_struct = valor que você quer dar a ela.
+
+Seguindo essa syntaxe você vai declarar uma váriavel com o tipo que você criou
+e vai usar o "." para definir onde a quela variável vai se encaixar e qual o valor
+dela!
+
+
 __________________________________________________________________________________

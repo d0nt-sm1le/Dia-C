@@ -1,0 +1,32 @@
+                                Biblioteca
+__________________________________________________________________________________
+Para se criar uma biblioteca crie um arquivo que a extensão ".h"! Como por exemplo
+
+index.h
+
+Assim ele vai importar os comandos e as bibliotecas padrão da linguagem C. O pró-
+ximo passo é usar os comandos "ifndef" e colocar o nome da sua biblioteca, ex:
+
+#ifndef _BIBLIOTECA_H
+
+Agora você vai usar o define para definir a sua biblioteca:
+
+#define _BIBLIOTECA_H
+
+Obrigatoriamente o nome tem que ficar em maiúculo mas quando você a for chama-lá
+o nome ficará em minúsculo. Assim por ultimo você vai usar o comando "endif"
+para indicar o fim da sua biblioteca, e tudo que estiver entre "ifndef" e "endif"
+vai ser a sua biblioteca.
+
+--------------------------------------
+Chamando a biblioteca
+
+Para chamar a sua biblioteca você usará o #include """ já que ela está como um
+arquivo local ou dentro de uma pasta local, assim para chama-lá com o <> você
+terá que à colocar dentro da pasta "include" da sua pasta do MinGW.
+
+Agora é importante dizer que todos os comandos serão postos apartir de funções
+então cada comando terá que ser uma função para que você o possa chamar
+dentro do seu código principal!
+
+__________________________________________________________________________________

@@ -20,6 +20,8 @@ Const = váriavel imútavel
 double = armazena numero flutuantes maiores - %lf
 #define nome valor = para números importantes
 
+extern = define que a váriavel poderá ser usada em arquivos externos
+
 Declarando:
 
 Para declarar uma váriavel você vai colocar o tipo dela, o nome dela e o valor
